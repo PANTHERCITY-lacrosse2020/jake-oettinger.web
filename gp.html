@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Games Protection</title>
+<style>
+body {
+  font-family: sans-serif;
+  text-align: center;
+  margin-top: 100px;
+}
+#passwordForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    margin: 0 auto;
+}
+
+input[type="password"] {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+     body {
+                background-image: url("https://cdn.pixabay.com/photo/2014/04/02/16/29/map-307442_640.png")
+                }
+
+</style>
+</head>
+<body>
+<div style="background-color: #006847">
+<h1>Games pass</h1>
+<div id="passwordForm">
+<form id="loginForm">
+  <input type="password" id="password" placeholder="Enter Password">
+  <button type="button" onclick="checkPassword()">Enter</button>
+</form>
+</div></div>
+
+<script>
+function checkPassword() {
+  const password = document.getElementById('password').value;
+  if (password === 'Cart0nof3ggs') {
+    window.location.href = '123057017869193257209235.html'; // Redirect to the secret page
+  } else {
+    alert('Incorrect password. I am jealous of all the people who havent met you yet. You have a face that would make onions cry. If ugly was a day, you would be an entire year. Youre not stupid - you just have bad luck with thinking. Your teeth are so yellow, even the sun is jealous. Youre so ugly you would make a Happy Meal cry. Twinkle, twinkle little star, youre the definition of subpar. If Im a 5, then you’re a 2. Faces like yours belong in a zoo. Roses are red, violets are blue. I have five fingers, the third ones for you.');
+    // Optionally, you could clear the password field here:
+    // document.getElementById('password').value = ''; 
+  }
+}
+        
+</script>
+
+</body>
+</html>
